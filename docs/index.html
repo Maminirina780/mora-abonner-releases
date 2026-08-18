@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Téléchargez Mora Abonner pour Android, Windows, macOS et Linux." />
+  <title>Mora Abonner — Téléchargements officiels</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <header class="nav wrap">
+      <a class="brand" href="#top" aria-label="Mora Abonner"><img src="assets/mora-abonner-icon.png" alt="" /><span>Mora Abonner</span></a>
+      <div class="tools"><span class="status" id="releaseStatus">Vérification de la version…</span><label class="lang"><span class="sr-only">Langue</span><select id="language"><option value="fr">FR</option><option value="mg">MG</option><option value="en">EN</option><option value="es">ES</option><option value="de">DE</option></select></label></div>
+    </header>
+    <section class="hero wrap" id="top">
+      <div class="hero-copy"><p class="eyebrow" data-i18n="eyebrow">APPLICATION OFFICIELLE</p><h1 data-i18n="title">Gérez votre bot Facebook depuis n’importe quel appareil.</h1><p class="lede" data-i18n="lede">Téléchargez Mora Abonner, connectez votre Worker et pilotez vos messages, vos contenus et votre assistant IA en toute simplicité.</p><div class="hero-actions"><a class="button primary" href="#downloads" data-i18n="download">Télécharger</a><a class="button secondary" href="#install" data-i18n="how">Comment installer</a></div></div>
+      <div class="hero-card"><img src="assets/mora-abonner-icon.png" alt="Logo Mora Abonner" /><div><p data-i18n="latest">Dernière version</p><strong id="latestVersion">—</strong><span id="publishedAt">Publication en cours de vérification</span></div></div>
+    </section>
+    <section class="downloads wrap" id="downloads"><div class="section-heading"><div><p class="eyebrow" data-i18n="choose">CHOISISSEZ VOTRE APPAREIL</p><h2 data-i18n="platformTitle">Un téléchargement simple, depuis la source officielle.</h2></div><p id="releaseNotes" class="release-notes"></p></div>
+      <div class="cards">
+        <article class="download-card featured" data-platform="android"><div class="platform-icon android">A</div><div><h3>Android</h3><p data-i18n="androidDesc">APK installable pour téléphone et tablette.</p></div><a id="androidLink" class="button primary wide disabled" aria-disabled="true" data-i18n="unavailable">Bientôt disponible</a><small data-i18n="androidHint">Android peut demander l’autorisation d’installer cette application.</small></article>
+        <article class="download-card" data-platform="windows"><div class="platform-icon windows">⊞</div><div><h3>Windows</h3><p data-i18n="windowsDesc">Installateur pour ordinateur Windows.</p></div><a id="windowsLink" class="button dark wide disabled" aria-disabled="true" data-i18n="unavailable">Bientôt disponible</a><small data-i18n="windowsHint">Ouvrez le fichier téléchargé, puis suivez les étapes à l’écran.</small></article>
+        <article class="download-card" data-platform="macos"><div class="platform-icon mac">⌘</div><div><h3>macOS</h3><p data-i18n="macDesc">Application pour Mac.</p></div><a id="macosLink" class="button dark wide disabled" aria-disabled="true" data-i18n="unavailable">Bientôt disponible</a><small data-i18n="macHint">Ouvrez le fichier DMG, puis glissez Mora Abonner dans Applications.</small></article>
+        <article class="download-card" data-platform="linux"><div class="platform-icon linux">◒</div><div><h3>Linux</h3><p data-i18n="linuxDesc">AppImage ou paquet DEB selon la version publiée.</p></div><a id="linuxLink" class="button dark wide disabled" aria-disabled="true" data-i18n="unavailable">Bientôt disponible</a><small data-i18n="linuxHint">Téléchargez le format proposé par la dernière version.</small></article>
+      </div>
+    </section>
+    <section class="install wrap" id="install"><div class="section-heading"><div><p class="eyebrow" data-i18n="start">DÉMARRER</p><h2 data-i18n="installTitle">Installez, connectez-vous, puis gérez votre bot.</h2></div></div><ol><li><strong data-i18n="stepOneTitle">Téléchargez</strong><span data-i18n="stepOne">Sélectionnez l’appareil que vous utilisez et téléchargez le fichier officiel.</span></li><li><strong data-i18n="stepTwoTitle">Installez</strong><span data-i18n="stepTwo">Ouvrez le fichier et suivez les indications de votre appareil.</span></li><li><strong data-i18n="stepThreeTitle">Connectez-vous</strong><span data-i18n="stepThree">Saisissez l’adresse HTTPS de votre Worker, votre e-mail et votre mot de passe.</span></li></ol></section>
+    <section class="security wrap"><div><p class="eyebrow" data-i18n="security">SÉCURITÉ</p><h2 data-i18n="securityTitle">Téléchargez toujours depuis cette page officielle.</h2></div><p data-i18n="securityText">Les liens sont vérifiés depuis les publications GitHub officielles. L’application vous proposera une mise à jour lorsqu’une nouvelle version sera disponible.</p></section>
+    <footer class="wrap"><span>© <span id="year"></span> Mora Abonner</span><a href="https://github.com/Maminirina780/mora-abonner-releases" target="_blank" rel="noreferrer">GitHub Releases</a></footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
