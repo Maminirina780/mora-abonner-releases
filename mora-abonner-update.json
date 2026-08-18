@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "publishedAt": "2026-08-18T00:00:00Z",
+  "notes": "Première version mobile de Mora Abonner.",
+  "downloads": {
+    "android": "https://github.com/Maminirina780/mora-abonner-releases/releases/download/v1.0.0/Mora-Abonner-v1.0.0.apk",
+    "windows": "https://github.com/Maminirina780/mora-abonner-releases/releases/download/v1.0.0/Mora-Abonner-Setup-v1.0.0.exe",
+    "macos": "",
+    "linux": ""
+  }
+}
